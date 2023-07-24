@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    font-size: 2rem;
+    background-color: lightblue;
+  }
+  
+  section {
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    background-color: white;
+    width: 60%;
+    height: 95%;
+  }
+
+  #arrow-left {
+    transform: scale(0.15) rotate(-0.5turn);
+    width: 20%
+  }
+
+  #arrow-right {
+    transform: scale(0.15);
+    width: 20%;
+  }
+
+  footer {
+    height: 15%;
+    width: 100%;
+  }
+  
