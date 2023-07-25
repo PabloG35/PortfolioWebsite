@@ -7,23 +7,39 @@
     <link rel="stylesheet" href="website.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67efbc6566.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Hello, I am a Full Stack Engineer</h1>
+        <h1><span class="bold">Hello.</span> I'm a Full Stack Developer.</h1>
     </header>
-    <section>
-        <img id="arrow-left" src="arrow.jpg" />
-        <div id="carousell">
-            <img id="project1" src="" alt="Image of Mixed Message project" />
-            <img id="project2" src="" alt="Image of Portfolio Website project" />
+    <section id="projects">
+        <div class="arrow">
+            <i class="fa-solid fa-arrow-left"></i>
         </div>
-        <img id="arrow-right" src="arrow.jpg" />
+        <div class="projectContainers">
+            <img id="project1" src="project1.png" alt="Image of Mixed Message project" />
+            <div class="description">
+                <h1>MIXED MESSAGE PROJECT - Futuro Predictor</h1>
+                <h2>My first JavaScript - CSS - HTML project</h2>
+                <h3>Created on <span class="bold">July 16</span> and finished on <span>July 25</span>.</h3>
+                <p>Future Predictor: This project is an interactive web application that predicts a 
+                    user's future based on their name input. Using randomly generated time periods, verbs, and consequences, it provides 
+                    intriguing insights into potential outcomes, such as feeling energized, creative, joyful, or facing 
+                    challenges like exhaustion or frustration. Users can explore various fortunes and get a glimpse of what 
+                    destiny may have in store for them.</p>
+            </div>
+        </div>
+        <div class="arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p><i class="fa-solid fa-copyright" tittle=&copy;></i> 2023 Your Website. All rights reserved.</p>
+        <p><a target="_blank" href="https://github.com/PabloG35"><i class="fa-brands fa-github"></i> PabloG35</a></p>
+        <p><i class="fa-solid fa-at"></i> pablogaxiola35@gmail.com</p>
     </footer>
 </body>
 </html>
+
